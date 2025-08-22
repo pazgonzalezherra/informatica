@@ -1,9 +1,9 @@
 /*selector de etiqueta*/
 h1{
-color:red;
+color: rgb(231, 121, 138);
 }
 h2{
-color:blue;
+color:rgb(238, 146, 207);
 }
 /*selector de clase*/
 .oscuro{
@@ -14,3 +14,30 @@ color:white;
 #p1{
 color:green;
 }
+header {
+    background-image: url("./fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  footer {
+    background-color: #8b5e3c;
+    color: #fff8ec;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer a {
+    color: #fff8ec;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin: 0 0.5rem; 
+    font-size: 1.8rem; 
+    display: inline-block; 
+  }
+  
+  footer a:hover {
+    color: pink;
+  }
